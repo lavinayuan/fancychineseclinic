@@ -1,0 +1,243 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Fancy Chinese Clinic</title>
+<link rel="stylesheet" href="https://necolas.github.io/normalize.css/8.0.1/normalize.css" />	
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous"/>	
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,100..900;1,100..900&family=Poppins:wght@300;400;500;600;700&family=Raleway:wght@300;900&display=swap" rel="stylesheet" />
+<link rel="stylesheet" href="style.css" />	
+</head>
+
+<body>
+<div class="hero">
+	<header class="header">
+			<a href="index.html"><img src="images/logoIcon_sm.png" alt="Logo"></a>
+
+			<nav id="header-navigation" class="header-navigation">
+				<a href="#about">About</a>
+				<a href="#services">Services</a>
+				<a href="#hours">Clinic Hours</a>
+			</nav> 
+			<i onClick="toggleMenu('open')" class="fa fa-bars menu-ico"></i>
+			<i onClick="toggleMenu('close')" id="close-ico" class="fa fa-times-circle close-ico"></i>
+		
+	</header>	
+		
+	<div class="main">
+
+		<div class="headline">
+			<h1>FANCY<br><span style="font-size:75%; font-weight:500;">CHINESE CLINIC</span></h1>
+			<div class="secondary-text">Specialising in Acupuncture, Herbal Medicine, Massage Therapy, and Osteopathy.</div>
+			<a href="#about"><img src="images/arrow.png" alt="Arrow" class="arrow"></a>
+		</div>
+	</div>
+</div>
+	<section id="about">
+		<div class="wrapper">
+			<h2>About Fancy Chinese Clinic</h2>
+			<p style="width:90%; margin:0 auto;">To help you stay healthy, feel your best and age well by delivering effective treatment which combines traditional Chinese medicine and modern technology. From acupuncture to herbal medicine to advanced gene technology, lots of symptoms and conditions can be treated, improved and prevented, such as, pain relief (all kinds), stress and insomnia, overweight, skin care, respiratory illness, and neurological problems.</p>
+			<div class="col-2">
+				<div><!--<div class="subtitle">Cheng Lian Zhu</div><br>--><img src="images/fancy.webp" /></div>       
+				<div>
+					<ul>
+						<li>More than 20 years of clinical experience (both China and Canada)</li>
+						<li>Registered Traditional Chinese Medicine Practitioner (R.TCMP) & Acupuncturist (R.Ac)</li>
+						<li>Registered Ontario Osteopathic & Alternative Medicine Manual Practitioner</li>
+						<li>Registered Toronto Municipal Licensing & Standards Holistic Practitioner</li>
+						<li>Successfully treated stroke, facial paralysis, herpes zoster, painful obstruction, allergies, weight loss, and hair growth</li>
+						<li>Received the Global Outstanding Chinese Award in 2008 from Chinese21.com</li>
+						<li>Speaks Korean, English, and Chinese</li>
+						<li>Personal Motto: Prevention Today, Healthy Aging Tomorrow. </li>
+					</ul>
+				</div>	
+			</div>	
+		</div>
+	</section>
+
+
+	<div class="container" id="services">
+		<div class="wrapper">
+			<h2>Services</h2>
+			<div class="info">We accept insurance for Acupuncture, Osteopathy, and Accident</div>
+			
+			<div class="service">
+				<ul>
+					<li><a href="" data-modal="modal1">SERVICES & PRICE</a></li>
+					<li><a href="" data-modal="modal2">WHAT WE TREAT</a></li>
+				</ul>
+			</div>	
+
+			<!-- Modal 1 -->
+				<div id="modal1" class="overlay">
+				<div class="modal">
+					<span class="close">&times;</span>
+					<h3>Services & Price</h3>
+					<div class="service-category">Osteopathy</div>
+					<div class="service-content">
+						<div class="service-item">
+							Initial Assessment - 90 min<br>
+							Treatment - 60 min<br>
+							Treatment - 45 min<br>
+							Treatment - 30 min
+						</div>
+						<div class="service-price">
+							$120<br>
+							$90<br>
+							$70<br>
+							$50
+						</div>
+					</div>
+					<br>
+					<div class="service-category">Acupuncture</div>
+					<div class="service-content">
+						<div class="service-item">
+							Consultation<br>
+							Treatment - 60 min<br>
+							Treatment - 45 min<br>
+							Treatment - 30 min<br>
+							Treatment - 20 min
+						</div>
+						<div class="service-price">
+							$20<br>
+							$75<br>
+							$65<br>
+							$50<br>
+							$40
+						</div>
+					</div>
+					<br>
+					<div class="service-category">Herbal Medicine</div>
+					<div class="service-content">
+						<div class="service-item">
+							3-day course<br>
+							7-day course
+						</div>
+						<div class="service-price">
+							$50<br>
+							$100
+						</div>
+					</div>
+					<br>
+					<div class="service-category">Massage Therapy</div>
+					<div class="service-content">
+						<div class="service-item">
+							In-clinic - 60 min<br>
+							In-clinic - 45 min<br>
+							In-clinic - 30 min<br>
+							In-house - 60 min
+						</div>
+						<div class="service-price">
+							$75<br>
+							$65<br>
+							$50<br>
+							$100
+						</div>
+					</div>
+					<br><br>
+					<img src="images/therapy.webp" style="width:100%; border: 0;" /> 
+				</div>
+				</div>
+
+			<!-- Modal 2 -->
+				<div id="modal2" class="overlay">
+				 
+					<div class="modal">
+					<span class="close">&times;</span>
+					<h3>What We Treat</h3>
+					 <ul>
+						<li>Common Cold and Influenza</li>
+						<li>Cough</li>
+						<li>Jundice</li>
+						<li>Dizziness/Vertigo</li>
+						<li>Wheezing/Asthma/Breathless</li>
+						<li>Epigastric Pain/Gastralgia</li>
+						<li>Acid Reflux</li>
+						<li>Gastric Upset</li>
+						<li>Abdominal Pain/Colitis</li>
+						<li>Indigestion for Children</li>
+						<li>Tiredness/Fatigue</li>
+						<li>Hemorrhoids</li>
+						<li>Diarrhea</li>
+						<li>Constipation</li>
+						<li>Painful Obstruction Syndrome/Arthritis</li>
+						<li>Facial Pain/Trigeminal Neuralgia</li>
+						<li>Lumbago/Sciatica</li>
+						<li>Neck Sprain/Stiff Neck</li>
+						<li>Facial Paralysis/Bell's Palsy</li>
+						<li>Headache</li>
+						<li>Stroke</li>
+						<li>Atrosphy Syndrome</li>
+						<li>Sprains</li>
+						<li>Deafness</li>
+						<li>Ringing in the Ear</li>
+						<li>Earaches</li>
+						<li>Myopia</li>         
+						<li>Sinus Infection</li>
+						<li>Sore Throat</li>
+						<li>Eczema</li>
+						<li>Acne</li>
+						<li>Herpes Zoster</li>
+						<li>Impotence</li>
+						<li>Infertility</li>
+						<li>Pre-Menstrual Syndrome (PMS)</li>
+						<li>Pelvic Inflammatory Disease (PID)/Dysmenorrhea</li>
+						<li>Vaginitis</li>
+						<li>Irregular Menstruation</li>
+						<li>Morning Sickness</li>
+						<li>Menopausal Syndrome</li>
+						<li>Amenorrhea</li>
+						<li>Abnormal Uterus Bleeding (including Endometriosis)</li>
+						<li>Anxiety/Depression/Stress</li>
+						<li>Insomnia</li>
+						<li>Hypochondriall Pain</li>
+						<li>Vomiting</li>
+						<li>Palpitation</li>
+						<li>Edema</li>
+						<li>Urine Retention</li>
+						<li>Syncope</li>
+						<li>Toothache</li>                                    
+					</ul>
+					</div>				
+				
+				</div>
+
+		</div>
+	</div>
+
+
+	<section id="hours">
+			<div class="wrapper">
+				<h2>Clinic Hours</h2>
+				<p>
+					Monday:  10:00am - 6:00pm<br>
+					Tuesday:  10:00am - 8:00pm<br>
+					Wednesday:  10:00am - 6:00pm<br>
+					Thursday:  10:00am - 5:00pm<br>
+					Friday:  10:00am - 8:00pm<br>
+					Saturday:  10:00am - 5:00pm<br>
+					Sunday:  2:00pm - 8:00pm<br><br>
+					<span class="info"> Victoria Park Ave<br>
+					North York, ON M2J 4Y2</span>
+					<br><br>
+					<span class="contact"><a class="tel" tabIndex="-1" href="tel:416-254-3668">416-254-3668</a></span>		
+				</p>
+			</div>
+	</section>
+
+	<div>
+		<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2880.043728927352!2d-79.33470302282761!3d43.79270564339531!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89d4d3a973ea37f9%3A0xe549d39e5093f98f!2s3000%20Victoria%20Park%20Ave%2C%20North%20York%2C%20ON%20M2J%204Y2!5e0!3m2!1sen!2sca!4v1777072604976!5m2!1sen!2sca" class="map" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+	</div> 
+	
+	<footer>
+		Copyright &copy; Fancy Chinese Clinic 2026
+	</footer>
+	
+	<script src="main.js"></script>
+	<script src="modal.js"></script>
+
+</body>
+</html>

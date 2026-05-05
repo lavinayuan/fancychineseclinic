@@ -184,9 +184,9 @@
 
 		.close {
 			position: absolute; 
-			top: 12px;
-			right: 18px;
-			font-size: 36px;
+			top: 16px;
+			right: 24px;
+			font-size: 42px;
 			color: var(--primary-color);
 			cursor: pointer;
 		}
